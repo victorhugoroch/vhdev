@@ -8,7 +8,7 @@ description = "about"
 ---------------------------
 
 
-From Rio, technology enthusiast and currently living in Sao Paulo. 
+Technology enthusiast and carioca. 
 
 In my free time I try to focus on my personal projects and articles.
 

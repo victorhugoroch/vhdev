@@ -7,7 +7,7 @@ description = "about"
 
 ---------------------------
 
-Carioca, entusiasta em tecnologia e atualmente morando em São Paulo.
+Carioca, entusiasta em tecnologia e atualmente morando no Rio.
 
 No meu tempo livre tento focar nos meus projetos pessoais e artigos.
 

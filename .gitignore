@@ -1,3 +1,5 @@
 .idea/
 archetypes/
 public/
+.hugo_build.lock
+themes/*
