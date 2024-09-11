@@ -1,18 +1,18 @@
 baseurl = "https://victorhugo.dev/"
 title = "Victor Hugo"
-theme = "coder-portfolio"
+theme = "hugo-coder"
 languagecode = "pt"
 defaultcontentlanguage = "pt"
 
 [pagination]
     pagerSize = 20 # Default number of pages per page in pagination.
 
-pygmentsstyle = "b2" # Color-theme or style for syntax highlighting.
-pygmentscodefences = true # Enable code fence background highlighting.
-pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences without specified language.
-pygmentsUseClasses = true # new add
+[markup.highlight]
+    style = "github-dark"
 
-disqusShortname = "victorhugorch"
+[services]
+[services.disqus]
+    disqusShortname = "victorhugorch"
 
 [params] # theme parameters
     author = "Victor Hugo Rocha" # Author's name.
@@ -21,13 +21,10 @@ disqusShortname = "victorhugorch"
     keywords = "blog,developer,personal" # Site keywords.
     avatarurl = "https://i.imgur.com/p3bwx22.jpg" # Contain the path of the optionnal avatar in the static folder.
 
-    footercontent = "Enter a text here." # Add footer content
-    #fixedbarContent = "Do you want to know me more private?→" # Add fixedbar content
-    #fixedbarContentAfter = "Thank You! Please share it if you like it→" # Add fixedbar content after click
+    colorScheme = "auto"
+    hidecolorschemetoggle = false
 
-    # Whether you want to hide copyright and credits in the footer.
-    hideCredits = false
-    hideCopyright = false
+    enableTwemoji = true
 
     # Custom CSS
     custom_css = []
@@ -48,18 +45,17 @@ disqusShortname = "victorhugorch"
 # Social links
 [[params.social]]
     name = "Github"
+    icon = "fa-brands fa-github fa-2x"
     weight = 1
     url = "https://github.com/victorhugoroch/"
 [[params.social]]
-    name = "Bsky"
-    weight = 2
-    url = "https://bsky.app/profile/victorhug0.bsky.social"
-[[params.social]]
     name = "LinkedIn"
+    icon = "fa-brands fa-linkedin fa-2x"
     weight = 3
     url = "https://www.linkedin.com/in/victor-hugo-rocha-27738a8a/"
 [[params.social]]
     name = "Instagram"
+    icon = "fa-brands fa-instagram fa-2x"
     weight = 4
     url = "https://www.instagram.com/victorhugorch/"
 
